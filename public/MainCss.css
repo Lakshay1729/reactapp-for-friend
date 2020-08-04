@@ -224,13 +224,13 @@ li{
 .button:hover{
   font-size: 30px;
   font-family: sans-serif;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 25px rgba(84, 107, 143, 0.2);
  
   font-style: normal;
   color:white;
   
   border-radius: 10px;
-  background-color:darkgray;
+  background-color:rgb(123, 187, 247);
   font-variant: small-caps;
   text-decoration: none;
   
@@ -372,7 +372,7 @@ height: auto;
   font-size: 30px;
 padding-right: 10px;
 padding-left: 10px;
-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+box-shadow: 0 5px 25px rgba(148, 154, 197, 0.541);
 margin-top: 40px;
   border-radius: 10px;
   margin: auto;
@@ -426,7 +426,7 @@ Typing{
 }
 
 html{
-  background-image:linear-gradient(to right,rgba(110, 231, 165, 0.534),rgb(62, 78, 107)) ;
+  background-image:linear-gradient(to left,rgba(110, 231, 165, 0.534),rgb(62, 78, 107)) ;
 }
 
 #order-catalog-img {
@@ -472,6 +472,9 @@ select{
   -webkit-appearance: button;
   appearance: button;
   outline: none;
+}
+select:click{
+  color: #f8f8f8;
 }
 
 
@@ -563,6 +566,7 @@ select{
 
     width: 30%;
   }
+  
 }
 
     

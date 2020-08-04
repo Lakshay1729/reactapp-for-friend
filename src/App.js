@@ -28,7 +28,7 @@ class App extends Component{
                 particles: { 
                     anim:{
                     enable:true,
-                        speed:20,
+                        speed:6,
 
                     },
                     line_linked:{
@@ -38,7 +38,7 @@ class App extends Component{
                     value: 100, 
                     density: { 
                       enable: true, 
-                      value_area: 800, 
+                      value_area: 1300, 
                     } 
                   },
                   shape: {
@@ -52,15 +52,11 @@ class App extends Component{
                 move: {
                     enable: true,
                     speed: 4,
-                    direction: "up",
+                    direction: "none",
                     random: true,
                     straight: true,
-                    out_mode: "in",
-                    attract: {
-                      enable: true,
-                      rotateX: 600,
-                      rotateY: 1200
-                    }
+                    out_mode: "out",
+                    
                   },
                   interactivity: {
                     detect_on: "canvas",
